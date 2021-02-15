@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
 
-  final FirebaseUser user;
+  final User user;
 
-  HomeScreen({this.user});
+  HomeScreen({this.user, User User});
 
   @override
   Widget build(BuildContext context) {

@@ -1,14 +1,18 @@
 import 'package:firebase_user_login/screens/LoginScreen.dart';
+import 'package:firebase_user_login/screens/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Profit Plug',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen()
+      home: SplashScreen()
     );
   }
 }
